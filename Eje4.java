@@ -1,4 +1,4 @@
-//Ejercicio 4 de progra:
+//Ejercicio Programado 4 Semana 1:
 //Solicitar al usuario tres números y mostrarlos ordenados de mayor a menor
 
 import java.util.Scanner;
