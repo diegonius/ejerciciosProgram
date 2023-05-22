@@ -8,6 +8,10 @@ public class Eje5 {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("Ingrese un número entre 0 y 9999: ");
         int numero = input.nextInt();
+        while(numero<0){
+            System.out.println("El número ingresado es cero. Coloque uno correcto ");
+            numero = input.nextInt();
+        }
         //Entramos a una condicion para ver la cantidad de numeros e informarle al usuario
         if (numero >= 0 && numero <= 9999) {
             int cantidadNum = 1;
