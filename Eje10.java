@@ -13,7 +13,7 @@ public class Eje10 {
             int numero = scanner.nextInt();
             total += numero;
         }
-
+        //Muestra la suma
         System.out.println("La suma total es: " + total);
         System.out.println("Gracias por usar nuestra sistema...");
     }
