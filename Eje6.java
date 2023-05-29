@@ -15,7 +15,7 @@ public class Eje6 {
         int anio = scanner.nextInt();
         // Verificar si la fecha es correcta
         boolean fechaCorrecta = true;
-        if (dia < 1 || dia > 30 || mes < 1 || mes > 12 || anio < 1) {
+        if (dia < 1 || dia > 30 || mes < 1 || mes > 12 || anio < 1 || anio > 9999) {
             fechaCorrecta = false;  // Verificar si los valores están dentro de lo permitido
         }
         // Mostrar el resultado

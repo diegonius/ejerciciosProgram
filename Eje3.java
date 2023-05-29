@@ -6,13 +6,13 @@ public class Eje3 {
         System.out.print("Ingresa el primer número: ");
         int numero1 = input.nextInt();
         while(numero1<=0){
-            System.out.println("El número ingresado es cero. Coloque ");
+            System.out.println("El número ingresado es cero o negativo. Coloque uno positivo: ");
             numero1 = input.nextInt();
         }
         System.out.print("Ingresa el segundo número: ");
         int numero2 = input.nextInt();
         while(numero2<=0){
-            System.out.println("El número ingresado es cero. Coloque ");
+            System.out.println("El número ingresado es cero o negativo. Coloque uno positivo: ");
             numero2 = input.nextInt();
         }
         if (numero1 > numero2) {

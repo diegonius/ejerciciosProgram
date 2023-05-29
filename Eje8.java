@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Eje8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int num = 1;
+        int num = 3;
         System.out.println("Saludos! Este sistema te ayudará a ver si un numero es positivo o negativo ");
         while (num != 0) {
             // Solicitar al usuario un numero
@@ -17,9 +17,9 @@ public class Eje8 {
             } else if (num < 0) {
                 System.out.println("El numero es negativo.");
             } else {
-                System.out.println("Hasta luego!");
+                System.out.println("Listo, terminamos");
             }
-        }
+        }System.out.println("Hasta luego!");
     }
 }
 

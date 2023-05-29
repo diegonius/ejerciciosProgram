@@ -8,7 +8,7 @@ public class Eje5 {
         System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         System.out.println("Ingrese un número entre 0 y 9999: ");
         int numero = input.nextInt();
-        while(numero<0){
+        while(numero < 0 || numero > 9999){
             System.out.println("El número ingresado es cero. Coloque uno correcto ");
             numero = input.nextInt();
         }
@@ -19,8 +19,8 @@ public class Eje5 {
                 cantidadNum = 1; // Caso especial para el número 0
             } else {
                 while (numero != 0) {
-                    cantidadNum++;
-                    numero /= 10;
+                    cantidadNum++; //incrementa hasta llegar a 9999
+                    numero /= 10; //lo divide para que me saque
                 }
             }
             System.out.println("El número tiene " + cantidadNum + " cifra(s).");
